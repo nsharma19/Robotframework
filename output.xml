@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0 (Python 3.8.2 on win32)" generated="20210317 23:21:46.251" rpa="false" schemaversion="2">
+<suite id="s1" name="Tc1" source="C:\Users\Owner\PycharmProjects\pythonProject1\Unittest\Robotframework\tc1.robot">
+<test id="s1-t1" name="create webdriver">
+<kw name="chrome">
+<arg>executable_path = "C:\Users\Owner\Desktop\new Chromedriver\chromedriver_win32\chromedriver.exe"</arg>
+<msg timestamp="20210317 23:21:46.297" level="FAIL">No keyword with name 'chrome' found.</msg>
+<status status="FAIL" starttime="20210317 23:21:46.297" endtime="20210317 23:21:46.297"/>
+</kw>
+<status status="FAIL" starttime="20210317 23:21:46.297" endtime="20210317 23:21:46.297">No keyword with name 'chrome' found.</status>
+</test>
+<test id="s1-t2" name="Open Browser">
+<kw name="https://www.nopcommerce.com/en/login/">
+<arg>chrome</arg>
+<msg timestamp="20210317 23:21:46.297" level="FAIL">No keyword with name 'https://www.nopcommerce.com/en/login/' found.</msg>
+<status status="FAIL" starttime="20210317 23:21:46.297" endtime="20210317 23:21:46.297"/>
+</kw>
+<status status="FAIL" starttime="20210317 23:21:46.297" endtime="20210317 23:21:46.297">No keyword with name 'https://www.nopcommerce.com/en/login/' found.</status>
+</test>
+<status status="FAIL" starttime="20210317 23:21:46.253" endtime="20210317 23:21:46.313"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Tc1">Tc1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210317 23:21:46.281" level="ERROR">Error in file 'C:\Users\Owner\PycharmProjects\pythonProject1\Unittest\Robotframework\tc1.robot' on line 2: Importing library 'selenium2library' failed: ModuleNotFoundError: No module named 'selenium2library'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Owner\PycharmProjects\pythonProject1\Unittest\Robotframework\venv\Scripts\robot.exe
+  C:\Users\Owner\AppData\Local\Programs\Python\Python38-32\python38.zip
+  C:\Users\Owner\AppData\Local\Programs\Python\Python38-32\DLLs
+  C:\Users\Owner\AppData\Local\Programs\Python\Python38-32\lib
+  C:\Users\Owner\AppData\Local\Programs\Python\Python38-32
+  c:\users\owner\pycharmprojects\pythonproject1\unittest\robotframework\venv
+  c:\users\owner\pycharmprojects\pythonproject1\unittest\robotframework\venv\lib\site-packages</msg>
+<msg timestamp="20210317 23:21:46.297" level="ERROR">Error in file 'C:\Users\Owner\PycharmProjects\pythonProject1\Unittest\Robotframework\tc1.robot' on line 3: Importing library 'selenium2library' failed: ModuleNotFoundError: No module named 'selenium2library'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Owner\PycharmProjects\pythonProject1\Unittest\Robotframework\venv\Scripts\robot.exe
+  C:\Users\Owner\AppData\Local\Programs\Python\Python38-32\python38.zip
+  C:\Users\Owner\AppData\Local\Programs\Python\Python38-32\DLLs
+  C:\Users\Owner\AppData\Local\Programs\Python\Python38-32\lib
+  C:\Users\Owner\AppData\Local\Programs\Python\Python38-32
+  c:\users\owner\pycharmprojects\pythonproject1\unittest\robotframework\venv
+  c:\users\owner\pycharmprojects\pythonproject1\unittest\robotframework\venv\lib\site-packages</msg>
+</errors>
+</robot>
